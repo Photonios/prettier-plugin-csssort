@@ -1,0 +1,19 @@
+{
+  "name": "prettier-plugin-csssort",
+  "version": "0.0.1",
+  "description": "Prettier plug that sorts and groups CSS properties.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/Photonios/prettier-plugin-csssort",
+  "author": "Swen Kooij <swenkooij@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "fix": "yarn prettier --config=prettier.config.js --write '**/*.js'"
+  },
+  "dependencies": {
+    "postcss-sorting": "2.1.0"
+  },
+  "peerDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
